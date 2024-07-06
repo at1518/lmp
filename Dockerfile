@@ -1,6 +1,4 @@
-FROM debian:12.5-slim
 FROM alpine:latest
-
 
 EXPOSE 80
 WORKDIR /home
