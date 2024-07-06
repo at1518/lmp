@@ -21,4 +21,4 @@ RUN echo '{"listenport":80,"listenscheme":"https","KnownProxies":[{"ip":"0.0.0.0
 
 RUN echo '[{"enable":true,"dll":"SISI.dll"},{"enable":true,"dll":"Online.dll"}]' > /home/module/manifest.json
 
-ENTRYPOINT ["/usr/share/dotnet/dotnet", "Lampac.dll"]
+ENTRYPOINT ["dotnet", "Lampac.dll"]
